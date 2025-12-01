@@ -6,6 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import cvFile from "../assets/Vishwa S Chandrasekara.pdf";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -13,9 +14,10 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   const handleDownloadCV = () => {
-    const link = document.createElement('a');
-    link.href = '/cv.pdf';
-    link.download = 'Vishwa_Chandrasekara_CV.pdf';
+    const link = document.createElement("a");
+    // use bundled asset URL so it works in dev and after build
+    link.href = cvFile;
+    link.download = "Vishwa_S_Chandrasekara_CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
