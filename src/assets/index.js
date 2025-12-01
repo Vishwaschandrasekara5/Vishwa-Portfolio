@@ -45,6 +45,9 @@ import bookapp from "./bookapp.png";
 import arrow from "./arrow.JPG";
 import greenlink from "./greenlink.png";
 import library from "./library.png";
+import sim from "./sim.png";
+import serandib from "./serandib.jpeg";
+import ar from "./ar.jpeg";
 
 export {
   logo,
@@ -91,4 +94,7 @@ export {
   arrow,
   greenlink,
   library,
+  sim,
+  serandib,
+  ar,
 };

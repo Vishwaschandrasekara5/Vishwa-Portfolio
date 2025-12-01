@@ -39,6 +39,9 @@ import {
   arrow,
   greenlink,
   library,
+  sim,
+  serandib,
+  ar,
 } from "../assets";
 
 export const navLinks = [
@@ -241,31 +244,31 @@ const projects = [
       },
     ],
     image: attendance,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Attendance-server",
   },
   {
-    name: "Weather App",
+    name: "Mobile Sim Churn Prediction System",
     description:
-      "Weather app using HTML, CSS, and Weather API to display real-time forecasts with clean, responsive design.",
+      "Mobile Service Churn Prediction System is a full-stack telecom analytics platform that predicts customer churn using XGBoost. Built with FastAPI, PostgreSQL, and SQLAlchemy on the backend, and a modern frontend using Next.js, Tailwind CSS, and TypeScript. It features real-time churn predictions, customer management, and insightful dashboards.",
     tags: [
       {
-        name: "html",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindCSS",
         color: "green-text-gradient",
       },
       {
-        name: "weather api",
+        name: "FastAPI",
         color: "pink-text-gradient",
       },
     ],
-    image: weather,
-    source_code_link: "https://github.com/",
+    image: sim,
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Mobile-Service-Churn-Prediction-System",
   },
   {
-    name: "Book Store App",
+    name: "Book Store Web App",
     description:
       "Bookstore app built with React, TypeScript, Node.js, Express, and Tailwind CSS for smooth browsing and transactions.",
     tags: [
@@ -287,28 +290,28 @@ const projects = [
       },
     ],
     image: bookweb,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Bookstore-Web-Application",
   },
   {
-    name: "Portfolio Website",
+    name: "Serandib Game Blog",
     description:
-      "A responsive portfolio website to showcase projects and skills with interactive elements and smooth animations.",
+      "Serendib Games Blog is a cloud-based gaming platform offering the latest news, reviews, and updates. Built with HTML, Bootstrap, and Firebase for secure authentication, it features a real-time chatbot, uses Docker and Kubernetes for deployment, and Nginx for load balancing, hosted on Vercel.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind css",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "framer motion",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: portfolio,
-    source_code_link: "https://github.com/",
+    image: serandib,
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Serendib-Games-Blog",
   },
   {
     name: "Quiz System",
@@ -329,7 +332,7 @@ const projects = [
       },
     ],
     image: quizz,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Quizzaro-Quiz-System",
   },
   {
     name: "Library Management System",
@@ -350,7 +353,7 @@ const projects = [
       },
     ],
     image: library,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Library-Management-System",
   },
   {
     name: "Edu-Com Site",
@@ -367,7 +370,7 @@ const projects = [
       },
     ],
     image: educom,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Edu-Com-Site",
   },
   {
     name: "Quotes Generator App",
@@ -384,7 +387,7 @@ const projects = [
       },
     ],
     image: quote,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Quotes-Generator-App",
   },
   {
     name: "Book Store App",
@@ -401,7 +404,7 @@ const projects = [
       },
     ],
     image: bookapp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Book-Store-app",
   },
   {
     name: "GreenLink",
@@ -426,7 +429,7 @@ const projects = [
       },
     ],
     image: greenlink,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/greeen-link",
   },
   {
     name: "Arrow Following Robot",
@@ -447,7 +450,28 @@ const projects = [
       },
     ],
     image: arrow,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Arrow-Following-Robot",
+  }, 
+  {
+    name: "AR Solar System app",
+    description:
+      "AR Solar System app built with Unity, AR Foundation, and ARCore. Users can place a 3D solar system in real space, explore planets, and observe their orbits and rotations. Designed as an immersive educational tool to make astronomy learning interactive and engaging.",
+    tags: [
+      {
+        name: "Unity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ARFoundation",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ARCore",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ar,
+    source_code_link: "https://github.com/Vishwaschandrasekara5/Solar-System-Application-AR",
   }, 
 ];
 

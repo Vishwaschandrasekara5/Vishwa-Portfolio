@@ -55,7 +55,11 @@ const Contact = () => {
       });
     } catch (error) {
       setLoading(false);
-      console.error("EmailJS Error:", error);
+      console.error("EmailJS Error full object:", error);
+      console.error("Error status:", error?.status);
+      console.error("Error text:", error?.text);
+      console.error("Error message:", error?.message);
+      console.log("Full error structure:", JSON.stringify(error, null, 2));
       alert("Ahh, something went wrong. Please try again.");
     }
   };
